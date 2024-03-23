@@ -7,7 +7,7 @@ Your task is to develop two distinct React list components, ListA and ListB, eac
 - **List Components:** Develop two components, ListA and ListB, each showcasing a unique list item.
   - **ListA** should feature a mix of text and images, including titles, descriptions, and images. You have the freedom to decide on the content's specifics, ensuring it's engaging and informative.
   - **ListB** allows for more creativity in content and structure. Design it to be versatile and open-ended.
-  - Utilize dummy/example data for both lists. Additionally, you can just clone this repo to leverage the existing Pokemon utils in the utils folder for fetching data from the PokeAPI, offering a practical example of API integration.
+  - Utilize dummy/example data for both lists. You can use the existing Pokemon utils in the utils folder for fetching data from the PokeAPI, or whatever you wish.
 - **Customization Props:** Both lists should accept customization props to allow for significant frontend personalization. These include:
   - `fontFamily`: choice of Inter or Poppins. Both are available on "next/font/google"
   - `headerSize` and `paragraphSize`
