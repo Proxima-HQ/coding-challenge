@@ -26,6 +26,6 @@ Your task is to develop two distinct React list components, ListA and ListB, eac
 - **Responsiveness and Layout:** How effectively the side-by-side layout functions and adapts to various devices.
 - **TypeScript Usage:** Your ability to leverage TypeScript features for type safety and best practices.
 
-This challenge is an opportunity to showcase your front-end development skills. We're eager to see your approach to creating these components! Please include a link to the repo and an easy deployment method, such as `yarn dev` or a Docker file.
+This challenge is an opportunity to showcase your front-end development skills. We're eager to see your approach to creating these components!
 
-Please share the repo with k3b0 on GitHub.
+Please share your repo with k3b0 on GitHub when complete.
