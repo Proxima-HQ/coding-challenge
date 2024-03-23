@@ -1,36 +1,31 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Overview
+In our platform, we value the ability to offer significant customization options to our clients, allowing them to tailor the frontend to their specific needs and preferences. To align with this philosophy, we have designed a coding challenge that tests your ability to create highly customizable React components.
 
-## Getting Started
+Your task is to develop two distinct React list components, ListA and ListB, each with a unique set of customizable features. These components should demonstrate your skills in creating versatile, user-friendly, and aesthetically pleasing UI elements using TypeScript, React, and CSS. The challenge is designed to assess your ability to implement functionality that meets our clients' diverse requirements while maintaining a high standard of code quality and design integrity.
 
-First, run the development server:
+## Key Objectives
+- **List Components:** Develop two components, ListA and ListB, each showcasing a unique list item.
+  - **ListA** should feature a mix of text and images, including titles, descriptions, and images. You have the freedom to decide on the content's specifics, ensuring it's engaging and informative.
+  - **ListB** allows for more creativity in content and structure. Design it to be versatile and open-ended.
+  - Utilize dummy/example data for both lists. Additionally, you can just clone this repo to leverage the existing Pokemon utils in the utils folder for fetching data from the PokeAPI, offering a practical example of API integration.
+- **Customization Props:** Both lists should accept customization props to allow for significant frontend personalization. These include:
+  - `fontFamily`: choice of Inter or Poppins. Both are available on "next/font/google"
+  - `headerSize` and `paragraphSize`
+  - `backgroundColor`
+  - `fontColor`
+  - It's crucial these props are well-defined and correctly implemented in your components to ensure flexibility and maintain the UI's integrity.
+- **Layout and Design:** Arrange the lists side by side in a responsive layout, ensuring the design adapts smoothly to different screen sizes.
+- **User Experience Considerations:** Introduce safeguards to prevent prop selections from disrupting the layout or aesthetics, such as limits on font size.
+- **TypeScript Implementation:** Utilize TypeScript to ensure type safety and demonstrate best practices in your code.
+- **Styling Method:** Select a styling method that you believe best fits the project, whether it be Tailwind, external stylesheets, inline styles, etc.
+- **Documentation and Comments:** Provide essential comments and documentation to explain your design decisions and any unique coding solutions you've applied.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Evaluation Criteria
+- **Code Quality:** The clarity, organization, and efficiency of your code.
+- **Design and Creativity:** The visual appeal and innovative design solutions of the components.
+- **Responsiveness and Layout:** How effectively the side-by-side layout functions and adapts to various devices.
+- **TypeScript Usage:** Your ability to leverage TypeScript features for type safety and best practices.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+This challenge is an opportunity to showcase your front-end development skills. We're eager to see your approach to creating these components! Please include a link to the repo and an easy deployment method, such as `yarn dev` or a Docker file.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Please share the repo with k3b0 on GitHub.
