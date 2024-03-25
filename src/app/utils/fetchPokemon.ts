@@ -9,7 +9,6 @@ export const typedFetch = async <T>(url: string): Promise<T> => {
 		const data = await response.json();
 		return data as T;
 	} catch (error) {
-		console.error("Error fetching Pokémon list:", error);
 		throw error;
 	}
 };
